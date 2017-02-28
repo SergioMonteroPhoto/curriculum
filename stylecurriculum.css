@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: serif;
+    max-width: 960px;
+    margin: 0 auto;
+    background: rgba(255,255,255,1);
+background: rgba(247,247,247,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(247,247,247,1) 0%, rgba(237,237,237,1) 45%, rgba(237,237,237,1) 47%, rgba(176,199,237,1) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(247,247,247,1)), color-stop(45%, rgba(237,237,237,1)), color-stop(47%, rgba(237,237,237,1)), color-stop(100%, rgba(176,199,237,1)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(247,247,247,1) 0%, rgba(237,237,237,1) 45%, rgba(237,237,237,1) 47%, rgba(176,199,237,1) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(247,247,247,1) 0%, rgba(237,237,237,1) 45%, rgba(237,237,237,1) 47%, rgba(176,199,237,1) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(247,247,247,1) 0%, rgba(237,237,237,1) 45%, rgba(237,237,237,1) 47%, rgba(176,199,237,1) 100%);
+background: radial-gradient(ellipse at center, rgba(247,247,247,1) 0%, rgba(237,237,237,1) 45%, rgba(237,237,237,1) 47%, rgba(176,199,237,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#b0c7ed', GradientType=1 );
+    padding-top: 3em;
+    padding-left: 2em;
+    padding-right: 1em;
+}
+
+table tr:nth-child(even) {
+    background-color: #eee;
+}
+ 
+table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+img{
+    
+}
+
+ul{
+    margin-left: 1em;
+}
